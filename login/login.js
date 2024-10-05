@@ -49,7 +49,7 @@ firebase.auth().signInWithEmailAndPassword(email, password)
         .then(function(userCredential) {
             // Inicio de sesión exitoso
             // Redirige a la página principal
-            window.location.href = '../home/index.html';
+            window.location.href = '../home/index.php';
 
         })
 
