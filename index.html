@@ -63,7 +63,7 @@
                         const errorCode = error.code;
 
                         if (errorCode === 'auth/invalid-email') {
-                            alert('El correo no es válido');
+                            alert('El correo no es valido');
                         } else if (errorCode === 'auth/user-disabled') {
                             alert('El usuario ha sido deshabilitado');
                         } else if (errorCode === 'auth/user-not-found') {
@@ -73,8 +73,6 @@
                         } else {
                             alert('Error desconocido: ' + error.message);
                         }
-                        else if(errorCode == 'auth/invalid-login-credentials')
-            alert('No existe este correo');
                     });
             });
 
