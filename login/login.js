@@ -34,8 +34,6 @@ login.addEventListener('click', (e) => {
             alert('El usuario no existe');
         else if(errorCode == 'auth/wrong-password')
             alert('Contraseña incorrecta');
-        else if(errorCode == 'auth/invalid-login-credentials')
-            alert('No existe este correo');
     });
 });
 
